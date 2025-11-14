@@ -1,0 +1,57 @@
+
+=== LOADING SIMULINK DATA ===
+✓ Loaded 200001 samples, Duration: 1.0000 s
+✓ Phase voltages reconstructed
+✓ Sampling frequency: Fs = 200000.0 Hz
+✓ Samples per cycle: 4000.0
+
+=== SELECTING ANALYSIS WINDOW ===
+✓ Window: samples 40002 to 200001 (160000 total)
+✓ Analyzing: 40 cycles (0.8000 s)
+✓ Window position: last 80.0% of signal
+
+=== CALCULATING RMS VALUES ===
+Phase A: V_rms = 1577.40 V, I_rms = 1567.04 A
+Phase B: V_rms = 1577.46 V, I_rms = 1567.04 A
+Phase C: V_rms = 1577.47 V, I_rms = 1567.04 A
+
+=== CALCULATING REAL POWER ===
+✓ Real Power P = 7227052.40 W (7227.0524 kW)
+
+=== CALCULATING APPARENT POWER ===
+✓ Apparent Power S = 7415763.64 VA (7415.7636 kVA)
+✓ True Power Factor = 0.9746
+
+=== FUNDAMENTAL COMPONENT ANALYSIS ===
+✓ Fundamental Active Power P1 = 7227078.22 W (7227.0782 kW)
+✓ Fundamental Reactive Power Q1 = 1382569.85 var (1382.5698 kvar)
+✓ Displacement Power Factor DPF = 0.9822
+
+=== THD ANALYSIS (Phase A Current) ===
+✓ Fundamental Current (h=1): 959.6097 A
+✓ THDi (Phase A): 0.19 %
+
+Top 5 Harmonics:
+
+========================================
+      POWER QUALITY SUMMARY
+========================================
+Analysis Window: 0.8000 s (40 cycles)
+Sampling Frequency: 200000.0 Hz
+----------------------------------------
+Real Power (P):          7227.05 kW
+Apparent Power (S):      7415.76 kVA
+Reactive Power (Q1):     1382.57 kvar
+----------------------------------------
+True Power Factor (PF):   0.9746
+Displacement PF (DPF):    0.9822
+THDi (Phase A):             0.19 %
+----------------------------------------
+Phase A: V=1577.4 V, I=1567.04 A
+Phase B: V=1577.5 V, I=1567.04 A
+Phase C: V=1577.5 V, I=1567.04 A
+========================================
+
+✓ Analysis complete!
+>> 
+>> 
